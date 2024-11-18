@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+     rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+     crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid px-5">
+            <a class="navbar-brand fs-4 fs-md-2 fs-lg-2 text-white" href="#">My Portfolio</a>
+
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse mx-5" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 text-white" aria-current="page" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 text-white" href="#">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 text-white" href="#">Projects</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 text-white" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid d-flex flex-column flex-lg-row p-5 bg-dark text-white">
+        <div class="container d-flex justify-content-center">
+            <img src="assets/profilepic.png" class="img-fluid" alt="Profile Picture">
+        </div>
+
+        <div class="container d-flex flex-column align-items-center justify-content-center">
+            <h1 class="fs-2">Hello, I'm</h1>
+            <h1 class="fs-1">Nikolai Ng</h1>
+        </div>
+    </div>
+
+    <div class="container-fluid d-flex flex-column align-items-center justify-content-center p-5 bg-light">
+        <h1 class="mb-4">Introduction</h1>
+
+        <p>Hi! I'm Nikolai Ng. A 2nd year college student pursuing the BSIT Program.
+           I hope to become one of the most well-knowned and respected developer in
+           the whole world.
+        </p>
+    </div>
+
+    <div class="container-fluid mt-4 bg-dark text-white py-5">
+        <h1 class="mb-4 text-center">Projects</h1>
+        <div class="row g-4">
+            <div class="col-sm-12 col-md-6 col-lg-4 d-flex">
+                <div class="card w-100">
+                    <img class="card-img-top img-fluid" src="assets/inance.jpg" alt="Card image">
+                    <div class="card-body">
+                    <h4 class="card-title">Inance</h4>
+                    <p class="card-text">Some example text.</p>
+                    <a href="https://niko2xni.github.io/inance/" class="btn btn-primary">See Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4 d-flex">
+                <div class="card w-100">
+                    <img class="card-img-top img-fluid" src="assets/mediplus.jpg" alt="Card image">
+                    <div class="card-body">
+                    <h4 class="card-title">Mediplus</h4>
+                    <p class="card-text">Some example text.</p>
+                    <a href="https://niko2xni.github.io/mediplus/" class="btn btn-primary">See Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4 d-flex">
+                <div class="card w-100">
+                    <img class="card-img-top img-fluid" src="assets/neogym.jpg" alt="Card image">
+                    <div class="card-body">
+                    <h4 class="card-title">Neogym</h4>
+                    <p class="card-text">Some example text.</p>
+                    <a href="https://niko2xni.github.io/neogym/" class="btn btn-primary">See Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid d-flex flex-column align-items-center justify-content-center p-5 bg-light">
+        <h1 class="mb-4">Contact</h1>
+
+        <form action="/action_page.php">
+            <div class="mb-3 mt-3">
+              <label for="name" class="form-label">Name:</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email:</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            </div>
+            <label class="form-label" for="comment">Message:</label>
+            <textarea class="form-control mb-3" rows="5" id="comment" name="text"></textarea> 
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form> 
+    </div>
+
+    <div class="container-fluid bg-dark text-white m-0 fs-4">
+        <footer class="py-3">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item">
+                    <a class="nav-link px-2" href="https://www.facebook.com/nikolaii.ng/">Facebook</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-2" href="www.linkedin.com/in/nikolai-ng-275682313">LinkedIn</a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+     crossorigin="anonymous"></script>
+</body>
+</html>
